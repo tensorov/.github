@@ -30,6 +30,6 @@ Two tracks that meet in production:
 
 **Open to backend / infrastructure / AI-agent engineering roles.**
 
-Telegram → **[@alextensor](https://t.me/alextensor)** · Matrix → `@schweigert:zeitoven.ru`
+Telegram → **[@alextensor](https://t.me/alextensor)**
 
 <!-- hero: svg -->
