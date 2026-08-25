@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Aleksei Molchanov (@tensorov)</title>
+  <desc id="hero-desc">Systems engineer building autonomous AI agents and the Rust infrastructure they run on. Right side shows an agent calling tools and verifying results.</desc>
+
+  <!-- ============ background ============ -->
+  <rect width="1200" height="360" rx="18" fill="#0d1117"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="17.25" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- ============ title block (left) ============ -->
+  <g id="title-block" transform="translate(60 52)">
+
+    <!-- eyebrow: domain legend -->
+    <g id="eyebrow">
+      <rect x="0" y="-11" width="11" height="11" rx="2.5" fill="#a371f7"/>
+      <text x="19" y="-1.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2.5" fill="#8b949e">AI AGENTS</text>
+      <rect x="152" y="-11" width="11" height="11" rx="2.5" fill="#f74c00"/>
+      <text x="171" y="-1.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2.5" fill="#8b949e">RUST INFRASTRUCTURE</text>
+    </g>
+
+    <!-- name + handle -->
+    <text x="0" y="72" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1" fill="#e6edf3">Aleksei Molchanov</text>
+    <text x="2" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#8b949e">@tensorov · systems engineer</text>
+
+    <!-- promise -->
+    <text x="0" y="158" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="23" fill="#c9d1d9">I build autonomous agents that do real work —</text>
+    <text x="0" y="190" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="23" fill="#c9d1d9">and the Rust infrastructure they run on.</text>
+
+    <!-- status line -->
+    <g id="status-row" transform="translate(2 232)">
+      <circle cx="6" cy="-6" r="5.5" fill="#f74c00"/>
+      <text x="22" y="0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#c9d1d9">open to work</text>
+      <text x="168" y="0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#30363d">|</text>
+      <text x="186" y="0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#8b949e">t.me/alextensor</text>
+    </g>
+  </g>
+
+  <!-- ============ agent loop panel (right) ============ -->
+  <g id="agent-panel" transform="translate(716 44)">
+    <rect width="428" height="272" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+
+    <!-- terminal chrome -->
+    <circle cx="24" cy="24" r="5" fill="#30363d"/>
+    <circle cx="44" cy="24" r="5" fill="#30363d"/>
+    <circle cx="64" cy="24" r="5" fill="#30363d"/>
+    <text x="404" y="29" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#8b949e">agent.session</text>
+    <line x1="0" y1="46" x2="428" y2="46" stroke="#30363d" stroke-width="1"/>
+
+    <!-- task node -->
+    <rect x="30" y="76" width="104" height="36" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+    <text x="82" y="100" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#8b949e">TASK</text>
+
+    <!-- agent node -->
+    <rect x="118" y="146" width="128" height="48" rx="10" fill="#201a33" stroke="#a371f7" stroke-width="1.5"/>
+    <text x="182" y="176" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="1.5" fill="#a371f7">AGENT</text>
+
+    <!-- task -> agent connector -->
+    <path d="M 82 112 L 82 130 Q 82 138 90 138 L 148 138 Q 156 138 156 144 L 156 146" fill="none" stroke="#8b949e" stroke-width="1.5"/>
+    <path d="M 151 141 L 156 147 L 161 141" fill="none" stroke="#8b949e" stroke-width="1.5"/>
+
+    <!-- tool nodes -->
+    <g id="tools">
+      <rect x="292" y="66" width="108" height="36" rx="8" fill="#0d1117" stroke="#f74c00" stroke-width="1.5"/>
+      <text x="346" y="90" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#e6edf3">RUST CLI</text>
+
+      <rect x="292" y="126" width="108" height="36" rx="8" fill="#0d1117" stroke="#f74c00" stroke-width="1.5"/>
+      <text x="346" y="150" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#e6edf3">MCP</text>
+
+      <rect x="292" y="186" width="108" height="36" rx="8" fill="#0d1117" stroke="#f74c00" stroke-width="1.5"/>
+      <text x="346" y="210" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#e6edf3">SHELL</text>
+    </g>
+
+    <!-- agent -> tools connectors -->
+    <path d="M 246 158 L 268 158 Q 276 158 276 150 L 276 94 Q 276 86 284 86 L 287 86" fill="none" stroke="#a371f7" stroke-width="1.5"/>
+    <path d="M 280 81 L 287 86 L 280 91" fill="none" stroke="#a371f7" stroke-width="1.5"/>
+
+    <path d="M 246 170 L 287 170" fill="none" stroke="#a371f7" stroke-width="1.5"/>
+    <path d="M 280 165 L 287 170 L 280 175" fill="none" stroke="#a371f7" stroke-width="1.5"/>
+
+    <path d="M 246 182 L 268 182 Q 276 182 276 190 L 276 198 Q 276 204 284 204 L 287 204" fill="none" stroke="#a371f7" stroke-width="1.5"/>
+    <path d="M 280 199 L 287 204 L 280 209" fill="none" stroke="#a371f7" stroke-width="1.5"/>
+
+    <!-- verify feedback: tools -> result back to agent -->
+    <path d="M 352 222 L 352 240 Q 352 248 344 248 L 100 248 Q 92 248 92 240 L 92 202" fill="none" stroke="#f74c00" stroke-width="1.5"/>
+    <path d="M 87 208 L 92 202 L 97 208" fill="none" stroke="#f74c00" stroke-width="1.5"/>
+    <rect x="144" y="234" width="176" height="28" rx="7" fill="#161b22"/>
+    <text x="232" y="254" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#f74c00">verified result</text>
+  </g>
+</svg>
